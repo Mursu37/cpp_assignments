@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 
 using namespace std;
@@ -48,3 +49,4 @@ int main() {
 	delete t;
 	return 1;
 }
+*/

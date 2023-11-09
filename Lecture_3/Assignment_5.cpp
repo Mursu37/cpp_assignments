@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 
 using namespace std;
@@ -45,6 +45,5 @@ int main() {
 	print_array_to_console(t, n);
 	reverse(t, n);
 	print_array_to_console(t, n);
-	delete t;
+	delete[] t;
 }
-*/
