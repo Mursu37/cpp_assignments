@@ -67,8 +67,8 @@ public:
 int randomNumber(int min, int max) {
 	random_device r;
 	mt19937 mt(r());
-	uniform_int_distribution<> randomNumber(min, max);
-	return randomNumber(mt);
+	uniform_int_distribution<> number(min, max);
+	return number(mt);
 }
 
 int main() {
